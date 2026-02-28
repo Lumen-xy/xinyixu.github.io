@@ -1,87 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Xinyi Xu - Academic Website</title>
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Xinyi Xu</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 </head>
 <body>
-    <div class="container">
-        <!-- Sidebar -->
-        <aside class="sidebar">
-            <div class="profile-section">
-                <img src="images/profile.jpg" alt="Xinyi Xu" class="profile-pic">
-                <h1 class="profile-name">Xinyi Xu</h1>
-                <p class="profile-title">Ph.D. Candidate</p>
-                <p class="profile-affiliation">University of Electronic Science and Technology of China</p>
-            </div>
-            
-            <div class="info-section">
-                <p><strong>Location:</strong> Chengdu, China</p>
-                <p><strong>Affiliation:</strong> UESTC</p>
-                <p><strong>Email:</strong> <a href="mailto:lumenx99@gmail.com">lumenx99@gmail.com</a></p>
-                <p><strong>Phone:</strong> (+86) 159-0813-0630</p>
-            </div>
-            
-            <div class="social-links">
-                <a href="mailto:lumenx99@gmail.com" class="social-link">Gmail</a>
-                <a href="https://scholar.google.com" class="social-link">Google Scholar</a>
-                <a href="https://github.com" class="social-link">GitHub</a>
-            </div>
-        </aside>
-        
-        <!-- Main Content -->
-        <main class="main-content">
-            <!-- Navigation -->
-            <nav class="navbar">
-                <a href="index.html" class="nav-link active">Home</a>
-                <a href="publications.html" class="nav-link">Publications</a>
-                <a href="education.html" class="nav-link">Education</a>
-            </nav>
-            
-            <!-- About Section -->
-            <section class="about-section">
-                <h2>Welcome!</h2>
-                <p>I am <strong>Xinyi Xu</strong>, a Ph.D. candidate in the <strong>National Key Laboratory of Science and Technology on Communications</strong> at the <strong>University of Electronic Science and Technology of China (UESTC)</strong>. My research focuses on advanced communication technologies and intelligent systems.</p>
-                
-                <p>My main research interests include <strong>federated learning</strong>, <strong>agentic AI</strong>, <strong>signal processing</strong>, and <strong>resource optimization</strong>. I am passionate about developing efficient and scalable solutions for next-generation communication networks.</p>
-            </section>
-            
-            <!-- Research Interests -->
-            <section class="research-section">
-                <h2>Research Interests</h2>
-                <div class="tags">
-                    <span class="tag">Federated Learning</span>
-                    <span class="tag">Agentic AI</span>
-                    <span class="tag">Signal Processing</span>
-                    <span class="tag">Resource Optimization</span>
-                    <span class="tag">6G Networks</span>
-                </div>
-            </section>
-            
-            <!-- Recent Updates -->
-            <section class="updates-section">
-                <h2>Recent Updates</h2>
-                <ul class="updates-list">
-                    <li>
-                        <strong>2023.06</strong> Completed Master's degree at UESTC with GPA 4.0/4.0 and First-class Scholarship.
-                    </li>
-                    <li>
-                        <strong>2023.09</strong> Started Ph.D. program at UESTC with full scholarship support.
-                    </li>
-                    <li>
-                        <strong>2024</strong> Published paper on "Joint Inference Offloading and Model Caching for Small and Large Language Model Collaboration" in IEEE Transactions on Mobile Computing (SCI Q1 Top, CCF-A).
-                    </li>
-                    <li>
-                        <strong>2024</strong> Published paper on "Joint UAV deployment and resource allocation: A personalized federated deep reinforcement learning approach" in IEEE Transactions on Vehicular Technology.
-                    </li>
-                    <li>
-                        <strong>2025</strong> Submitted paper on "Distributed Mixture-of-Experts Inference with Offline Expert Deployment and Online Token Routing" to IEEE Transactions on Mobile Computing.
-                    </li>
-                </ul>
-            </section>
-        </main>
-    </div>
+
+<!-- ===== Header ===== -->
+<header class="site-header">
+  <div class="header-inner">
+    <a class="site-title" href="index.html">Xinyi Xu</a>
+    <nav class="site-nav">
+      <a href="index.html" class="active">Home</a>
+      <a href="publications.html">Publications</a>
+      <a href="education.html">Education</a>
+    </nav>
+  </div>
+</header>
+
+<!-- ===== Main ===== -->
+<div class="page-wrapper">
+  <div class="main-container">
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="sidebar-inner">
+        <img src="images/profile.jpg" alt="Xinyi Xu" class="profile-photo" />
+        <div class="profile-name">Xinyi Xu</div>
+        <div class="profile-title">
+          Ph.D. Candidate<br>
+          UESTC
+        </div>
+        <ul class="profile-links">
+          <li>
+            <span class="icon"><i class="fas fa-map-marker-alt"></i></span>
+            Chengdu, China
+          </li>
+          <li>
+            <span class="icon"><i class="fas fa-university"></i></span>
+            UESTC
+          </li>
+          <li>
+            <span class="icon"><i class="fas fa-envelope"></i></span>
+            <a href="mailto:lumenx99@gmail.com">Gmail</a>
+          </li>
+          <li>
+            <span class="icon"><i class="fas fa-graduation-cap"></i></span>
+            <a href="https://scholar.google.com" target="_blank">Google Scholar</a>
+          </li>
+          <li>
+            <span class="icon"><i class="fab fa-github"></i></span>
+            <a href="https://github.com" target="_blank">GitHub</a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+    <!-- Content -->
+    <main class="content">
+
+      <!-- Bio -->
+      <section class="bio-section">
+        <p>
+          Welcome! I am <strong>Xinyi Xu</strong>, a Ph.D. candidate in the <strong>National Key Laboratory of Science and Technology on Communications</strong> at the <strong>University of Electronic Science and Technology of China (UESTC)</strong>.
+        </p>
+        <p>
+          My research focuses on advanced communication technologies and intelligent systems. I am passionate about developing efficient and scalable solutions for next-generation communication networks.
+        </p>
+        <p>
+          My main research interests include <strong>federated learning</strong>, <strong>agentic AI</strong>, <strong>signal processing</strong>, and <strong>resource optimization</strong>.
+        </p>
+        <p>
+          <strong>Contact me</strong> at <a href="mailto:lumenx99@gmail.com">lumenx99@gmail.com</a>.
+        </p>
+      </section>
+
+      <!-- Research Interests -->
+      <h2>Research Interests</h2>
+      <div class="interest-tags">
+        <span class="interest-tag">Federated Learning</span>
+        <span class="interest-tag">Agentic AI</span>
+        <span class="interest-tag">Signal Processing</span>
+        <span class="interest-tag">Resource Optimization</span>
+        <span class="interest-tag">6G Networks</span>
+      </div>
+
+      <!-- News -->
+      <h2>Recent Updates</h2>
+      <ul class="news-list">
+        <li>
+          <span class="news-date">2023.06</span>
+          <span>Completed Master's degree at UESTC with GPA 4.0/4.0 and First-class Scholarship.</span>
+        </li>
+        <li>
+          <span class="news-date">2023.09</span>
+          <span>Started Ph.D. program at UESTC with full scholarship support.</span>
+        </li>
+        <li>
+          <span class="news-date">2024</span>
+          <span>Published paper on <em>"Joint Inference Offloading and Model Caching for Small and Large Language Model Collaboration"</em> in <strong>IEEE Transactions on Mobile Computing</strong> (SCI Q1 Top, CCF-A).</span>
+        </li>
+        <li>
+          <span class="news-date">2024</span>
+          <span>Published paper on <em>"Joint UAV deployment and resource allocation: A personalized federated deep reinforcement learning approach"</em> in <strong>IEEE Transactions on Vehicular Technology</strong>.</span>
+        </li>
+        <li>
+          <span class="news-date">2025</span>
+          <span>Submitted paper on <em>"Distributed Mixture-of-Experts Inference with Offline Expert Deployment and Online Token Routing"</em> to <strong>IEEE Transactions on Mobile Computing</strong>.</span>
+        </li>
+      </ul>
+
+    </main>
+  </div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <p>&copy; 2025 Xinyi Xu &mdash; UESTC &mdash; Built with HTML &amp; CSS</p>
+  </footer>
+</div>
+
 </body>
 </html>
